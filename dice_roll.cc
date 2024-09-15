@@ -14,8 +14,8 @@ return dice_roll;
 
 int main(){
 
-    srand(time(0));
-    for(int i=0;i<2;i++)
+    srand(time(0)); // srand has the task to call a random number cited before
+    for(int i=0;i<2;i++) 
 {
 cout<< dice()<< endl;
 }
